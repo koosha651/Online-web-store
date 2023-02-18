@@ -1,0 +1,9 @@
+
+db.items.insertMany([{"name":"Test1", "category":" Digital Pianos", "details":" Wooden Style 88 Key Weighted Digital Piano with Stand & 3 Pedal ","status":"This Product is Out Of Stock", "image":"https://rolandcorp.com.au/blog/wp-content/uploads/2014/04/piano_4.jpg"},
+
+{"name":"Test1", "category":" Digital Pianos", "details":" Wooden Style 88 Key Weighted Digital Piano with Stand & 3 Pedal ","status":"This Product is Out Of Stock", "image":"https://rolandcorp.com.au/blog/wp-content/uploads/2014/04/piano_4.jpg"},
+
+{"name":"Test1", "category":" Digital Pianos", "details":" Wooden Style 88 Key Weighted Digital Piano with Stand & 3 Pedal ","status":"This Product is Out Of Stock", "image":"https://rolandcorp.com.au/blog/wp-content/uploads/2014/04/piano_4.jpg"}, 
+
+{"name":"Test1", "category":" Digital Pianos", "details":" Wooden Style 88 Key Weighted Digital Piano with Stand & 3 Pedal ","status":"This Product is Out Of Stock", "image":"https://rolandcorp.com.au/blog/wp-content/uploads/2014/04/piano_4.jpg"}
+])

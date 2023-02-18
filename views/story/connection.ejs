@@ -1,0 +1,48 @@
+<%- include('../partials/header.ejs')%>
+
+    <div class="middle">
+        <h2>
+            <u>
+                <%=connection.connectionName%> 
+            </u>
+            <p><%= tradeSize%> People are intrested in your item.</p>
+        </h2>
+        <div>
+            <img class="menu-item" src="<%=connection.imageurl%>" alt="Image not available">
+        </div>
+       
+        <div>
+            <p>Owner By - <%=connection.author.firstName + ' ' + connection.author.lastName%>
+            </p>
+           
+            <p>
+                
+                Details - <%=connection.details%>
+            </p>
+        </div>
+
+        <%if(user && user._id==connection.author._id) {%>
+            <div class="float-middle">
+                <form class="form-middle">
+                    <button type="submit" formmethod="GET" formaction="/connections/<%=connection.id%>/edit"
+                        class="button-margin">Update</button>
+
+                    <button type="submit" formmethod="POST"
+                        formaction="/connections/delete/<%= connection.id%>?_method=DELETE"
+                        class="button-margin">Delete</button>
+                </form>
+            </div>
+            <%}else{ %>
+                <form method="POST">
+                    <button class=button-margin type="submit" name=status value='YES'
+                        formaction="/connections/<%= connection.id%>/trade">Trade</button>
+                    <button class=button-margin type="submit" name=status value='NO'
+                        formaction="/connections/<%= connection.id%>/trade">Not Intrested</button>
+                    
+                </form>
+                <%}%>
+
+    </div>
+
+
+    <%- include('../partials/footer.ejs')%>

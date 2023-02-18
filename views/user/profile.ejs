@@ -1,0 +1,83 @@
+<%- include('../partials/header.ejs')%>
+
+    <div class="profile-data">
+        <%if(connections.length) {%>
+            <h2>
+                <%=user.firstName +'\'s Items'%>
+            </h2>
+            <table class='profile'>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Item Status</th>
+                    <th>Actions</th>
+                </tr>
+                <%connections.forEach(connection=> {%>
+                    <tr>
+                        <td>
+                            <p>
+                                <%=connection.connectionName%>
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                <%=connection.connectionTopic%>
+                            </p>
+                        </td>
+                        <td>
+                            <form class="form-middle">
+                                <button type="submit" formmethod="GET" formaction="/connections/<%=connection.id%>/edit"
+                                    class="button-margin">Update</button>
+
+                                <button type="submit" formmethod="POST"
+                                    formaction="/connections/delete/<%= connection.id%>?_method=DELETE"
+                                    class="button-margin">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                    <%});%>
+            </table>
+            <% } else {%>
+                <p>You have not created any Items</p>
+                <%}%>
+                <br/>
+                    <h2>
+                        <%=user.firstName%>'s Items
+                    </h2>
+                    <% if (tradeArr.length>0) { %>
+                        <table class='profile'>
+                            <tr>
+                                <th>item</th>
+                                <th>Item Status</th>
+                                <th>interested?</th>
+                                <th>Actions</th>
+                            </tr>
+                            <% for(var i=0; i<tradeArr.length; i++){ %>
+                                <tr>
+                                    <td>
+                                        <a>
+                                            <%= tradeArr[i].connectionId.connectionName%>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <%= tradeArr[i].connectionId.connectionTopic%>
+                                    </td>
+                                    <td>
+                                        <%= tradeArr[i].status%>
+                                    </td>
+                                    <td>
+                                        <form class='form-middle'>
+                                            <button class=button-margin type="submit" formmethod="GET"
+                                                formaction="/connections/<%= tradeArr[i].connectionId._id%>">Update</button>
+                                            <button class=button-margin type="submit" formmethod="POST"
+                                                formaction="/connections/<%= tradeArr[i].connectionId._id%>/tradeDelete">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
+                                <%} %>
+                        </table>
+                        <%} else{ %>
+                            <p> You have not added any items</p>
+                            <% } %>
+
+    </div>
+    <%- include('../partials/footer.ejs')%>

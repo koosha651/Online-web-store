@@ -1,0 +1,27 @@
+<%- include('../partials/header.ejs')%>
+    <div class="container">
+        <form action="/connection" method="POST" id="simple-forms">
+            <div id="row">
+                <label>Item Name</label>
+                <input type="text" id="leagueName-input" name="connectionName" placeholder="Enter the Item Name"
+                    >
+            </div>
+            <div>
+                <label>Item Status</label>
+                <input type="text" id="title-input" name="connectionTopic" placeholder="Enter the Title" >
+            </div>
+            <div>
+                <label>Item Details</label>
+                <input type="text" id="details" name="details" placeholder="Enter the Details" >
+            </div>
+            
+            <div>
+                <label>Image URL</label>
+                <input type="text" id="imageurl" name="imageurl" placeholder="imageurl" >
+            </div>
+            <input type="submit" id="button-margin" class="button-margin">
+            <br /><br /><br /><br /><br />
+        </form>
+
+    </div>
+    <%- include('../partials/footer.ejs')%>
