@@ -23,7 +23,7 @@ Homepage and piano shop details page before user login in. No favorite button sh
 
 Register for an account and login to use any app features. Regex is used to check the format of the email address.
 
-![Registration and Login](\public\gifs\preview-login.gif)
+![Registration and Login](/public/gifs/preview-login.gif)
 
 Search for piano by their category.
 
@@ -31,19 +31,19 @@ Search for piano by their category.
 
 View a piano details and favourite a piano
 
-![View piano Details](/static/image/gifs/view-details.gif)
+![View piano Details](/public/gifs/add-and-drop%20item.gif)
 
 Write a review for a piano.
 
-![Write piano Review](/static/image/gifs/write-review.gif)
+![Write piano Review](/public/gifs/start-trade.gif)
 
 User profile page and upload your own profile picture.
 
-![Upload Profile Picture](/static/image/gifs/user-profile-page.gif)
+![Upload Profile Picture](/public/gifs/signe-up.gif)
 
 View your favorited pianos.
 
-![View User Content](/static/image/gifs/view-favs-rests.gif)
+![View User Content](/public/gifs/profie.gif)
 
 
 ## <a name="installation"></a>Set Up 🛠
