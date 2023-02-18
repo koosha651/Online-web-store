@@ -27,7 +27,7 @@ Register for an account and login to purchase any item. Regex is used to check t
 
 Search for piano by their category.
 
-![pianos Search](/public/gifs/login.gif)
+![profile login](/public/gifs/login.gif)
 
 View a piano details and favourite a piano
 
