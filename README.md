@@ -32,6 +32,7 @@ Login to the profile that you make
 Start trade and import information about the item
 
 ![View piano Details](/public/gifs/start-trade.gif)
+
 Write a review for a piano.
 
 ![Write piano Review](/public/gifs/add-and-drop%20item.gif)
