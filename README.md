@@ -23,7 +23,7 @@ Homepage and piano shop details page before user login in. No favorite button sh
 
 Register for an account and login to use any app features. Regex is used to check the format of the email address.
 
-![Registration and Login](/static/image/gifs/register-login.gif)
+![Registration and Login](\public\gifs\preview-login.gif)
 
 Search for piano by their category.
 
