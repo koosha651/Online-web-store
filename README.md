@@ -37,10 +37,8 @@ Update your purchased information about the pianos.
 
 ![Write piano Review](/public/gifs/start-trade.gif)
 
-User profile page and upload your own profile picture.
-
-
-Write a review for a piano.
+User profile page and write piano Review and show intrest on 
+other items
 
 ![View User Content](/public/gifs/add-and-drop%20item.gif)
 
