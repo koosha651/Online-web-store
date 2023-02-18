@@ -21,7 +21,7 @@ Homepage and piano shop details page before user login in. No favorite button sh
 
 ![Before user login in](/public/gifs/preview-login.gif)
 
-Register for an account and login to purchase any item. Regex is used to check the format of the email address.
+Register for an account for login and purchasing any item. Regex is used to check the format of the email address.
 
 ![Registration and Login](/public/gifs/signe-up.gif)
 
@@ -31,7 +31,7 @@ Login to the profile that you make
 
 Start trade and import information about the item
 
-![View piano Details](/public/gifs/start-trade.gif)
+![View piano Details](/public/gifs/profie.gif)
 
 Write a review for a piano.
 
@@ -42,7 +42,7 @@ User profile page and upload your own profile picture.
 
 View your favorited pianos.
 
-![View User Content](/public/gifs/profie.gif)
+![View User Content](/public/gifs/start-trade.gif)
 
 
 ## <a name="installation"></a>Set Up 🛠
