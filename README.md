@@ -35,14 +35,14 @@ Start trade and import information about the item
 
 Write a review for a piano.
 
-![Write piano Review](/public/gifs/add-and-drop%20item.gif)
+![Write piano Review](/public/gifs/start-trade.gif)
 
 User profile page and upload your own profile picture.
 
 
 View your favorited pianos.
 
-![View User Content](/public/gifs/start-trade.gif)
+![View User Content](/public/gifs/add-and-drop%20item.gif)
 
 
 ## <a name="installation"></a>Set Up 🛠
