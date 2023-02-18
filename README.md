@@ -29,7 +29,7 @@ Search for piano by their category.
 
 ![profile login](/public/gifs/login.gif)
 
-View a piano details and favourite a piano
+Login to the profile that you make
 
 ![View piano Details](/public/gifs/add-and-drop%20item.gif)
 
