@@ -21,9 +21,9 @@ Homepage and piano shop details page before user login in. No favorite button sh
 
 ![Before user login in](/public/gifs/preview-login.gif)
 
-Register for an account and login to use any app features. Regex is used to check the format of the email address.
+Register for an account and login to purchase any item. Regex is used to check the format of the email address.
 
-![Registration and Login](/public/gifs/preview-login.gif)
+![Registration and Login](/public/gifs/signe-up.gif)
 
 Search for piano by their category.
 
