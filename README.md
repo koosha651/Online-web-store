@@ -39,7 +39,7 @@ Write a review for a piano.
 
 User profile page and upload your own profile picture.
 
-![Upload Profile Picture](/public/gifs/signe-up.gif)
+![Upload Profile Picture]
 
 View your favorited pianos.
 
