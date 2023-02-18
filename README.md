@@ -27,7 +27,7 @@ Register for an account and login to use any app features. Regex is used to chec
 
 Search for piano by their category.
 
-![pianos Search](/static/image/gifs/search-rests.gif)
+![pianos Search](/public/gifs/login.gif)
 
 View a piano details and favourite a piano
 
