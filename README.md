@@ -19,7 +19,7 @@ I am Koosha Sharifani an enthusiastic software engineer in Charlotte, NC. Find h
 ## <a name="features"></a>Features 🔎
 Homepage and piano shop details page before user login in. No favorite button shown and no review can be left. Sign in and sign up button is shown.
 
-![Before user login in](/public/gifs/ezgif.com-video-to-gif (1).gif)
+![Before user login in](/public/gifs/preview login.gif)
 
 Register for an account and login to use any app features. Regex is used to check the format of the email address.
 
