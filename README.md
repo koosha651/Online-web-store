@@ -50,7 +50,7 @@ other items
 
 Clone repository:
 ```
-git clone https://github.com/WillaDai2022/Restaurant-Rating-App-2
+git clone https://github.com/koosha651/Online-web-store.git
 ```
 
 Create and activate virtual environment:
@@ -59,36 +59,22 @@ virtualenv env
 source env/bin/activate
 ```
 
-Install the dependencies:
+Open new terminal and install the dependencies:
 ```
-pip3 install -r requirements.txt
+npm i
 ```
-* Sign up to use the [Cloudinary API](https://cloudinary.com), [Google Maps Javascript API](https://developers.google.com/maps), [Yelp API](https://www.yelp.com/developers) and [Toastify JS API](https://apvarun.github.io/toastify-js/)
+* Make sure to open CMD terminal
 
-Save your Yelp and Cloudinary API keys to a file `secrets.sh`. The file should resemble this:
+After run the code, add  `nodemon app.js`. The file should resemble this:
 ```
-export YELP_KEY='***'
-export CLOUDINARY_KEY='***'
-export CLOUDINARY_SECRET='***'
+[nodemon] 2.0.20
+[nodemon] to restart at any time enter >nodemon app.js
+      
+Server is running on port 3000
 ```
-Restrict your Google Maps key.
+Restrict your Google page and in the address bar and run the app:
 
-Source your keys:
-```
-source secrets.sh
-```
-Set up the database:
-```
-createdb restaurant_guide
-psql restaurant_guide < restaurant_guide.sql
-```
-
-Run the app:
-```
-python3 server.py
-```
-
-* Go to 'localhost:5000' in your browser to view application locally.
+* Go to 'localhost:3000' in your browser to view application locally.
 
 
 
