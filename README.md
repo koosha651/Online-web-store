@@ -33,14 +33,14 @@ Start trade and import information about the item
 
 ![View piano Details](/public/gifs/profie.gif)
 
-Write a review for a piano.
+Update your purchased information about the pianos.
 
 ![Write piano Review](/public/gifs/start-trade.gif)
 
 User profile page and upload your own profile picture.
 
 
-View your favorited pianos.
+Write a review for a piano.
 
 ![View User Content](/public/gifs/add-and-drop%20item.gif)
 
