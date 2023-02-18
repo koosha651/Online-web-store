@@ -25,11 +25,11 @@ Register for an account and login to purchase any item. Regex is used to check t
 
 ![Registration and Login](/public/gifs/signe-up.gif)
 
-Search for piano by their category.
+Login to the profile that you make
 
 ![profile login](/public/gifs/login.gif)
 
-Login to the profile that you make
+Start trade and import information about the item
 
 ![View piano Details](/public/gifs/add-and-drop%20item.gif)
 
