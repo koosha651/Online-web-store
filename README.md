@@ -17,7 +17,7 @@ I am Koosha Sharifani an enthusiastic software engineer in Charlotte, NC. Find h
 **Frontend**:  React, CSS3, HTML5, JavaScript<br/>
 
 ## <a name="features"></a>Features 🔎
-Homepage and piano shop details page before user login in. No favorite button shown and no review can be left. Sign in and sign up button is shown.
+Homepage and piano shop details page before user login in. No favorite button shown and no review can be left. About, Contact us, Login and Sign up button is shown.
 
 ![Before user login in](/public/gifs/preview-login.gif)
 
