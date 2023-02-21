@@ -8,7 +8,7 @@ Online piano shop enables users to search pianos by model name and their seller.
 
 
 
-## <a name="about-me"></a>About Me 👩🏻‍💻
+## <a name="about-me"></a>About Me 👨🏻👨🏻‍💻
 I am Koosha Sharifani an enthusiastic software engineer in Charlotte, NC. Find her on [LinkedIn](https://www.linkedin.com/in/kofani/).
 
 ## <a name="tech-stack"></a>Tech Stack 🖥
